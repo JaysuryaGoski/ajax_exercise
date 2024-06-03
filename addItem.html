@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Item Page</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        input{
+            width: 40%;
+            margin-bottom: 8px;
+            border-radius: 5px;
+            height: 2rem;
+            border: 1px solid gray;
+            padding-left: 10px;
+        }
+        #addItemBtn{
+            width: 600px;
+            background-color: blue;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>CRUD Database</h1>
+<div>
+    <input type="number" placeholder="ID" id="id"><br>
+    <input type="text" placeholder="First" id="first"><br>
+     <input type="text" placeholder="Last" id="last"><br>
+    <input type="email" placeholder="Email" id="email"><br>
+    <input type="number" placeholder="Phone" id="phone"><br>
+    <input type="text" placeholder="Location" id="location"><br>
+    <input type ="text" placeholder="Hobby" id="hobby"><br>
+   <button id="addItemBtn" >Add Item</button>
+    
+</div>
+<script src="main.js"></script>
+</body>
+</html>
